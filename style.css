@@ -1,0 +1,102 @@
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 661px;
+    height: 763px;
+    background-color: #c4c4c4;
+}
+
+.inputRep {
+    margin-top: 50px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 480px;
+    height: 61px;
+    border: none;
+    padding: 0px 10px 0px 10px
+}
+
+.inputRep:focus-visible {
+    border: none;
+    outline: none;
+
+}
+
+.vipodashka {
+    display: flex;
+    font-size: 30px;
+    padding-left: 10px;
+    background: rgb(219, 219, 219);
+    margin: 0px;
+    border: 2px solid #000;
+    height: 44px;
+}
+
+.vipodashka:hover {
+    background-color: aqua;
+}
+
+.vipadashkaMama {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.outputList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.outputItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 0px;
+    width: 503px;
+    height: 101px;
+    background-color: #E27BEB;
+}
+.leftSide {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.textInside {
+    font-size: 24px;
+}
+
+.outputContainer {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: 50px;
+    display: flex;
+}
+
+.outputDel {
+    background-color: #E27BEB;
+    background-position: 50%;
+    background-size: 90%;
+    background-image: url(./delBtn.svg);
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.hidenExample {
+    display: none;
+}
